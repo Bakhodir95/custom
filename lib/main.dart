@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lesson63/views/screens/home_page.dart';
-
-import 'screens/home_page.dart';
+import 'package:lesson63/screens/home_page.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -19,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Watch(),
+      home: Clock(),
     );
   }
 }
